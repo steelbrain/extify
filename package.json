@@ -1,6 +1,6 @@
 {
   "name": "extify",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node module to resolve executables on windows with EXTPATH",
   "main": "lib/index.js",
   "scripts": {
@@ -32,5 +32,5 @@
     "url": "https://github.com/steelbrain/extify/issues"
   },
   "homepage": "https://github.com/steelbrain/extify#readme",
-  "dependencies": { }
+  "dependencies": {}
 }
