@@ -7,14 +7,14 @@ import FS from 'fs'
 export function exists(filePath: string): Promise<boolean> {
   return new Promise(function(resolve) {
     FS.stat(filePath, function(error) {
-      resolve(error !== null)
+      resolve(error === null)
     })
   })
 }
 
 export function existsSync(filePath: string): boolean {
   try {
-    FS.stat(filePath)
+    FS.statSync(filePath)
     return true
   } catch (_) {
     return false
