@@ -1,7 +1,7 @@
 {
-  "name": "sb-exec",
-  "version": "1.0.4",
-  "description": "Process spawning APIs beautified",
+  "name": "extify",
+  "version": "1.0.0",
+  "description": "Node module to resolve executables on windows with EXTPATH",
   "main": "lib/index.js",
   "scripts": {
     "test": "apm test",
@@ -19,21 +19,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/steelbrain/exec.git"
+    "url": "git+https://github.com/steelbrain/extify.git"
   },
   "keywords": [
     "child_process",
     "process",
-    "exec"
+    "env"
   ],
   "author": "steelbrain",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/steelbrain/exec/issues"
+    "url": "https://github.com/steelbrain/extify/issues"
   },
-  "homepage": "https://github.com/steelbrain/exec#readme",
-  "dependencies": {
-    "consistent-env": "^1.0.1",
-    "sb-npm-path": "^1.0.0"
-  }
+  "homepage": "https://github.com/steelbrain/extify#readme",
+  "dependencies": { }
 }
