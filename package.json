@@ -1,6 +1,6 @@
 {
   "name": "extify",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Node module to resolve executables on windows with EXTPATH",
   "main": "lib/index.js",
   "scripts": {
