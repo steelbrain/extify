@@ -2,7 +2,7 @@
 
 /* @flow */
 
-import { it } from './helpers'
+import { it } from 'jasmine-fix'
 import extify from '../'
 
 describe('Extify', function() {

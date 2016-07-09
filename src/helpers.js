@@ -1,5 +1,3 @@
-'use strict'
-
 /* @flow */
 
 import FS from 'fs'
@@ -22,8 +20,9 @@ export function existsSync(filePath: string): boolean {
 }
 
 export function getExtPath(): string {
+  /* eslint-disable no-restricted-syntax */
   for (const key in process.env) {
-    if (process.env.hasOwnProperty(key) && key.toUpperCase() === 'EXTPATH') {
+    if ({}.hasOwnProperty.call(process.env, key) && key.toUpperCase() === 'EXTPATH') {
       return process.env[key] || ''
     }
   }
