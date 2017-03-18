@@ -1,6 +1,8 @@
 Extify
 =====
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/extify.svg)](https://greenkeeper.io/)
+
 Extify is a node module to resolve executables within PATH and PATHEXT, a lot like `where` or `which`, just simpler and lightweight
 
 ## Installation
